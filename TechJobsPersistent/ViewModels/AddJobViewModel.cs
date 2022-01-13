@@ -11,11 +11,10 @@ namespace TechJobsPersistent.ViewModels
 {
     public class AddJobViewModel
     {
-        [Required]
+       
         public string JobName { get; set; }
-        [Required]
+        
         public int EmployerID { get; set; }
-         [Required]
         public List<SelectListItem> AllEmployers { get; set; }
         public List<int> SkillId { get; set; }
         public List<Skill> AllSkills { get; set; }
