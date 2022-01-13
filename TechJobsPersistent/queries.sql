@@ -1,6 +1,9 @@
 --Part 1
 
-list columns Id, Name,EmployerId,datatype
+list columns Id-int, 
+Name longText,
+EmployerId int,
+
 
 --Part 2
 SELECT Name
