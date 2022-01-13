@@ -1,6 +1,6 @@
 --Part 1
-SELECT columns
-FROM jobs;
+
+list columns Id, Name,EmployerId,datatype
 
 --Part 2
 SELECT Name
